@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import MarkovChain
 
 main :: IO ()
-main = someFunc
+main = alltests
