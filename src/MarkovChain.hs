@@ -1,6 +1,8 @@
 module MarkovChain
-    ( alltests
+    ( 
+    markov
     ) where
 
-alltests :: IO ()
-alltests = putStrLn "someFunc"
+
+{-markovChain :: [ String ] --}
+markov mat = mat

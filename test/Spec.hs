@@ -1,2 +1,7 @@
+import MarkovChain
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = do
+    let a = markov "a b c"
+    print $ a
+    putStrLn "Test suite not yet implemented"

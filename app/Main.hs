@@ -3,4 +3,4 @@ module Main where
 import MarkovChain
 
 main :: IO ()
-main = alltests
+main = putStrLn "Nothing here"
